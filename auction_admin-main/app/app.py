@@ -8,10 +8,10 @@ app = initialize_app(cred_obj, {
 
 root_ref = db.reference()
 
-with open('players.json', 'r') as json_file:
+with open('auction_admin-main\app\players.json', 'r') as json_file:
     players = json.load(json_file)
 
-with open('pval.json', 'r') as json_file:
+with open('auction_admin-main\app\pval.json', 'r') as json_file:
     pointdata = json.load(json_file)
 
 def getplayername(code):
